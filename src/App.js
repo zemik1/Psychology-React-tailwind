@@ -1,16 +1,23 @@
 import '../src/index.css'
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import MainBody from "./components/MainBody";
-import Footer from "./components/Footer";
+import NavBar from "./components/pages/NavBar";
+import Hero from "./components/pages/Hero";
+import MainBody from "./components/pages/MainBody";
+import Footer from "./components/pages/Footer";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import About from "./components/pages/About";
 
 function App() {
     return (
         <div>
-            <NavBar/>
-            <Hero/>
-            <MainBody/>
-            <Footer/>
+            <Router>
+                <NavBar/>
+                <Routes>
+                    <Route path='/Main' element={<Hero/>}/>
+                    <Route path='/About' element={<MainBody/>}/>
+                    <Route path='/Contacts' element={<About/>}/>
+                </Routes>
+                <Footer/>
+            </Router>
         </div>
     );
 }

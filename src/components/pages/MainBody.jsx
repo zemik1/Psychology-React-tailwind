@@ -1,6 +1,7 @@
-import About from '../assets/laptop.jpg'
+import About from '../../assets/laptop.jpg'
 import {useState} from "react";
-import UiModal from "./uikit/UiModal";
+import UiModal from "../uikit/UiModal";
+
 
 function MainBody() {
     const [modal, setModal] = useState(false)
