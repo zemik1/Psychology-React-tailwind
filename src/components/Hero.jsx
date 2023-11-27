@@ -11,8 +11,8 @@ function Hero() {
                     Психология
                 </h1>
                 <div className='flex justify-center items-center'>
-                    <p className='md:text-4xl sm:text-4xl text-xl font-bold py-4'>Доступная помощь</p>
-                    <Typed className='md:text-4xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
+                    <p className='md:text-4xl sm:text-3xl text-xl font-bold py-4'>Доступная помощь</p>
+                    <Typed className='md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2'
                         strings={[' для Семьи', ' для Отношений']}
                         typeSpeed={120}
                         backSpeed={140}
