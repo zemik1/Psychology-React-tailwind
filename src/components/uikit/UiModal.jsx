@@ -12,7 +12,7 @@ function UiModal(props) {
     return (
         <div
             className='fixed hiden overflow-y-auto overflow-x-hidden outline-none inset-0 bg-gray-700/60 backdrop-blur pt-10 pb-10'>
-            <div className='fixed inset-0 overflow-y-auto bg-white rounded-lg md:w-[700px] sm:w-[390px] flex flex-nowrap justify-center mx-auto p-10'>
+            <div className='fixed inset-0 min-h-full p-4 overflow-y-auto bg-white rounded-lg md:w-[700px] sm:w-[400px] flex flex-nowrap justify-center mx-auto'>
                 <div>
                     <img src={oneList} alt="1"/>
                     <img src={twoList} alt="2"/>
