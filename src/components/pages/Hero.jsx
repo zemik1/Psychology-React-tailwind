@@ -2,9 +2,6 @@ import Typed from 'react-typed'
 import {Link} from "react-router-dom";
 
 function Hero() {
-    function redirectHandler() {
-
-    }
 
     return (
         <div className='text-white'>
@@ -31,7 +28,6 @@ function Hero() {
                             className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300]'>Приступить
                     </button>
                 </Link>
-
             </div>
         </div>
     )
