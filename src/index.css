@@ -5,3 +5,32 @@
 body {
     background-color: #000300;
 }
+
+.desc {
+    background-color: #000300;
+}
+
+.nav-list__link {
+    transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+    opacity: 0.8;
+}
+
+.nav-list__link--active {
+    position: relative;
+    color: #00df9a;
+}
+
+.nav-list__link--active::before {
+    content: '';
+    color: #00df9a;
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    display: block;
+    height: 2px;
+    width: 100%;
+}
