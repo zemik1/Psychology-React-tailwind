@@ -76,7 +76,7 @@ function MainBody() {
                             повышения уровня здоровья, энергии и ресурсного состояния.</p>
                         <button
                             onClick={viewModal}
-                            className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'>
+                            className='nav-list__link bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'>
                             Поподробнее
                         </button>
                         {modal && <UiModal modal={viewModal}/>}
