@@ -1,5 +1,3 @@
-import oneList from '../../assets/1.jpg'
-import twoList from '../../assets/2.jpg'
 import thirdList from '../../assets/3.jpg'
 import {AiOutlineClose} from "react-icons/ai";
 

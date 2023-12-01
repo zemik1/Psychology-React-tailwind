@@ -18,19 +18,19 @@ function About() {
                 </div>
                 <div className='flex flex-col justify-center mx-auto items-center'>
                     <button
-                        className='flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><FaViber size={30}/>
+                        className='nav-list__link flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><FaViber size={30}/>
                         Viber
                     </button>
                     <button
-                        className='flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><BiLogoTelegram size={30}/>
+                        className='nav-list__link flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><BiLogoTelegram size={30}/>
                         Telegram
                     </button>
                     <button
-                        className='flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><SlSocialVkontakte size={30}/>
+                        className='nav-list__link flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><SlSocialVkontakte size={30}/>
                         Вконтакте
                     </button>
                     <button
-                        className='flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><FaWhatsapp size={30}/>
+                        className='nav-list__link flex flex-nowrap justify-center items-center bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a]'><FaWhatsapp size={30}/>
                         Whatsapp
                     </button>
                 </div>

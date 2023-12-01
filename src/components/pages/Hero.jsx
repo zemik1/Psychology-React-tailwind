@@ -24,8 +24,8 @@ function Hero() {
                 <p className='md:text-2xl text-xl font-bold text-gray-500'>Стабильное психологическое состояние
                     невозможно без здорового физического.</p>
                 <Link to="/Contacts">
-                    <button onClick={redirectHandler}
-                            className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300]'>Приступить
+                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#000300]'>
+                        Приступить
                     </button>
                 </Link>
             </div>
